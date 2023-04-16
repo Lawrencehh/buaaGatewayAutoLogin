@@ -3,16 +3,19 @@
 
 ## 使用
 
+win10下
 ```
 pip install -r .\requirements.txt
 ```
 
+ubuntu下
+```
+pip install -r ./requirements.txt
+```
+
 修改`BeihangLogin\login.sh`中的`username`和`pwd`
 
-在当前目录执行脚本
+可以在ubuntu下使用crontab
 
-```
-nohup python .\logintask.py &
-```
+在win10下使用系统自带定时任务
 
-默认一小时登录一次
